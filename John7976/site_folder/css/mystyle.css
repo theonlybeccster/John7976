@@ -1,0 +1,160 @@
+/* STYLE SHEET FOR CIS241 FINAL */
+
+	
+
+h1 {
+font-family:"Arial Narrow",Arial,sans-serif;
+text-align: center;
+width: 100%;
+color: black;
+font-size: 250%;
+font-weight: bold;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+
+h2 {
+font-family:"Arial Narrow",Arial,sans-serif;
+text-align: left;
+font-weight: bold;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+p {
+font-family:"Arial Narrow",Arial,sans-serif;
+font-size: 115%;
+font-weight: normal;
+width: 93%;
+margin: 0 auto;	
+}
+
+p img {
+border-radius: 8px;
+}
+
+.container {
+width: 95%;
+margin: 0 auto;
+}
+
+header {
+background-color: #71DBD4;
+}
+
+header::after {
+content: '';
+display: table;
+clear: both;
+} 
+
+.name {
+float: left;
+padding: 5px 0;
+}
+
+nav {
+float: right;
+}
+
+body {
+font-family: "Arial Narrow",Arial,sans-serif;
+margin: 0px;
+background-color: white;
+}
+
+
+nav ul {
+font-size: 110%;
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+font-size: 110%;
+display: inline-block;
+margin-left: 150px;
+padding-top:25px;
+position: relative;
+}
+
+nav a {
+color: black;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+nav a:hover {
+color: black;
+}
+
+nav a::before {
+content: '';
+display: block;
+height: 5px;
+width: 100%;
+background-color: black;
+position: absolute;
+top: 0;
+width: 0%;
+transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before {
+width: 100%;
+}
+
+table {
+margin-left: 45px;
+font-family:"Arial Narrow",Arial,sans-serif;
+text-align: left;
+width: 95%;
+}
+
+th {
+font-size: 125%;
+font-weight: bold;
+}
+
+td {
+font-size: 110%;
+}
+
+form {
+font-family:"Arial Narrow",Arial,sans-serif;
+font-size: 115%;
+text-align: center;
+width: 100%;
+display: inline-block;
+}
+
+
+footer {
+font-family:"Arial Narrow",Arial,sans-serif;
+width: auto;
+text-align: center;
+display: block;
+padding: 10px;
+background-color: #71DBD4;
+}
+
+footer a {
+text-decoration: none;
+padding: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
